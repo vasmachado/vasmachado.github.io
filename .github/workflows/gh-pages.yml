@@ -25,7 +25,7 @@ jobs:
         uses: EndBug/add-and-commit@v7
         with:
           author_name: bot
-          author_email: thom.blizz@gmail.com
+          author_email: noreply@github.com
           message: 'updating landing page'
           add: '*'
 
@@ -34,4 +34,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          cname: www.7onn.dev
+          cname: vmachado.de
