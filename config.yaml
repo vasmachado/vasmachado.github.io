@@ -1,0 +1,41 @@
+baseUrl: https://vmachado.de
+languageCode: en-us
+title: "📜 vicky's"
+theme: hugo-tania
+enableEmoji: true
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true
+menu:
+  header:
+  - name: Blog
+    url: /
+  - name: About
+    url: /about/
+  footer:
+  - name: RSS
+    url: /index.xml
+markup:
+  highlight:
+    noClasses: false
+    lineNos: true
+  goldmark:
+    renderer:
+      unsafe: true
+params:
+  #titleEmoji: '📜'
+  mainSections:
+  - post
+  socialOptions:
+    github: https://github.com/vtetulicia
+    linkedin: https://www.linkedin.com/in/victoria-machado-150968164/
